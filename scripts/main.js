@@ -128,7 +128,7 @@ function displayCardsDynamically(collection) {
                 newcard.querySelector('.card-length').innerHTML = hikeLength +"km";
                 newcard.querySelector('.card-text').innerHTML = details;
                 newcard.querySelector('.card-image').src = `./images/${hikeCode}.jpg`; //Example: NV01.jpg
-                newcard.querySelector('a').href = "eachHike.html?docID"+docID;
+                newcard.querySelector('a').href = "eachHike.html?docID="+docID;
 
                 //Optional: give unique ids to all elements for future use
                 // newcard.querySelector('.card-title').setAttribute("id", "ctitle" + i);
